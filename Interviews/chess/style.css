@@ -1,0 +1,19 @@
+#chess-board-outline {
+  border: 5px solid black;
+  height: 800px;
+  margin: auto;
+  margin-top: 80px;
+  width: 800px;
+}
+
+.row {
+  height: 100px;
+  display: flex;
+}
+
+.col {
+  border: 1px solid black;
+  height: inherit;
+  width: 13%;
+  cursor: pointer
+}

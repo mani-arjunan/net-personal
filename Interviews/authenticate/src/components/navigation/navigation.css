@@ -1,0 +1,38 @@
+#nav-bar {
+  position: fixed;
+  color: white;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #04003f;
+  display: flex;
+  justify-content: center; 
+  align-items: center
+}
+
+.nav-btns-current {
+  display: flex;
+  margin: 70px;
+  padding: 11px 16px;
+  color: white;
+  font-weight: bold;
+  background: #374886;
+  border: 2px solid #374886;
+}
+
+
+.nav-btns {
+  display: flex;
+  margin: 70px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 11px 16px;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px
+}
+
+.nav-btns:hover {
+  background: #6a759b;
+}
